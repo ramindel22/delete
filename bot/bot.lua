@@ -68,9 +68,8 @@ function create_config( )
 		"msg-checks",
 		"plugins",
 		"tools",
-		"fun",
-		"info"
-	},
+		"fun"
+		},
     sudo_users = {240870611},
     admins = {},
     disabled_channels = {},
