@@ -21,7 +21,7 @@
 # Let's install the bot.
 cd $HOME
 git clone https://github.com/ramindel22/delete.git
-cd BDReborn
+cd delete
 chmod +x delete.sh
 ./delete.sh install
 ./delete.sh 
@@ -30,7 +30,7 @@ chmod +x delete.sh
 ### One command
 To install everything in one command, use:
 ```sh
-cd $HOME && git clone https://github.com/ramindel22/delete.git && cd BDReborn && chmod +x beyond.sh && ./delete.sh install && ./delete.sh
+cd $HOME && git clone https://github.com/ramindel22/delete.git && cd delete && chmod +x delete.sh && ./delete.sh install && ./delete.sh
 ```
 
 * * *
