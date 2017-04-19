@@ -49,7 +49,7 @@ add your ID at line 72 in bot.lua and add your ID at line 2 in tools.lua, Then r
 
 # Support and Development
 
-More information [Beyond Global Chat](https://t.me/joinchat/AAAAAEAYAluAzlzQS6PiYw)
+More information [delete Global Chat](https://t.me/joinchat/AAAAAEAYAluAzlzQS6PiYw)
 
 ### Our Telegram channel:
 
