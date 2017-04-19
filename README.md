@@ -1,5 +1,5 @@
 
-# [MegaCli](https://telegram.me/Delete_TM)
+# [DELETECli](https://telegram.me/Delete_TM)
 
 **An advanced and powerful administration bot based on NEW TG-CLI
 
