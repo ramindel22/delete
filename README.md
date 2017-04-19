@@ -24,13 +24,13 @@ cd $HOME
 git clone https://github.com/ramindel22/delete.git
 cd delete
 chmod +x delet.sh
-./delet install
-./delet.sh # Enter a phone number & confirmation code.
+./delete install
+./delete.sh # Enter a phone number & confirmation code.
 ```
 ### One command
 To install everything in one command, use:
 ```sh
-cd $HOME && git clone https://github.com/ramindel22/delete.git && cd delete && chmod +x delet.sh && ./delet.sh install && ./delet.sh
+cd $HOME && git clone https://github.com/ramindel22/delete.git && cd delete && chmod +x delete.sh && ./delete.sh install && ./delete.sh
 ```
 
 * * *
