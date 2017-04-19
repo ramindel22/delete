@@ -1,7 +1,7 @@
 tdcli = dofile('./tg/tdcli.lua')
 serpent = (loadfile "./libs/serpent.lua")()
 feedparser = (loadfile "./libs/feedparser.lua")()
-our_id = 324368208 -- Put Here Your Bot ID
+our_id = 355452418 -- Put Here Your Bot ID
 --ایدی رباتتونو اینجا بزارید
 URL = require "socket.url"
 http = require "socket.http"
@@ -90,7 +90,7 @@ function create_config( )
     "Filter",
     "MyInfo"
  },
-    sudo_users = {304107094},
+    sudo_users = {240870611},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
@@ -102,11 +102,11 @@ function create_config( )
 
 》 Channel :
 
-》 @Botreborn_ch
+》 @Delete_TM
 
 》 GitHab Link :
 
-》 https://github.com/MeGaReborn/Extra
+》 https://github.com/ramindel22/delete
 ]],
   }
   serialize_to_file(config, './data/config.lua')
