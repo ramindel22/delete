@@ -1,5 +1,5 @@
 
-# [MegaCli](https://telegram.me/BOTREBORN_CH)
+# [MegaCli](https://telegram.me/Delete_TM)
 
 **An advanced and powerful administration bot based on NEW TG-CLI
 
@@ -21,16 +21,16 @@
 ```sh
 # Let's install the bot.
 cd $HOME
-git clone https://github.com/MeGaReborn/Extra.git
-cd Extra
-chmod +x Extra.sh
-./Extra.sh install
-./Extra.sh # Enter a phone number & confirmation code.
+git clone https://github.com/ramindel22/delete.git
+cd delete
+chmod +x delete.sh
+./delete install
+./delete.sh # Enter a phone number & confirmation code.
 ```
 ### One command
 To install everything in one command, use:
 ```sh
-cd $HOME && git clone https://github.com/MeGaReborn/Extra.git && cd Extra && chmod +x Extra.sh && ./Extra.sh install && ./Extra.sh
+cd $HOME && git clone https://github.com/ramindel22/delete.git && cd delete && chmod +x delete.sh && ./delete.sh install && ./delete.sh
 ```
 
 * * *
@@ -41,7 +41,7 @@ After you run the bot for first time, send it `!id`. Get your ID and stop the bo
 Open ./bot/bot.lua and add your ID to the "sudo_users" section in the following format:
 ```
     sudo_users = {
-    157059515,
+    240870611,
     0,
     YourID
   }
@@ -53,4 +53,4 @@ Then restart the bot.
 — اضافه کردن ID ربات خود را در خط 4 و اضافه کردن ID خود را در خط 87 در bot.lua اضافه کردن ID خود را در خط 2 در Tools.lua سپس ربات راه اندازی مجدد شود.
 
 ### هر گونه مشکلی داشت به ساپورت مراجعه کنید
-# [Support](https://t.me/joinchat/AAAAAEJT-GRJmoNvIpVPdQ)
+# [Support](https://t.me/joinchat/AAAAAEAYAluAzlzQS6PiYw)
