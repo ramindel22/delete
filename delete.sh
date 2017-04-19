@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd $HOME/Extra
+cd $HOME/delete
 
 install() {
 	    cd tg
@@ -31,13 +31,13 @@ if [ ! -f ./tg/tgcli ]; then
     exit 1
 fi
    echo -e "\033[38;5;208m"
-   echo -e "     > @BOTREBORN_CH :D                  "
+   echo -e "     > @Delete_TM :D                  "
    echo -e "                                              \033[0;00m"
    echo -e "\e[36m"
    ./tg/tgcli -s ./bot/bot.lua $@
 fi
 
-# Now All Argument Support after ./beyond.sh !
+# Now All Argument Support after ./delete.sh !
 #	Arguments :
 #			#			#			#			#			#			#			#			#			#
 #  --phone/-u                           specify username (would not be asked during authorization)
