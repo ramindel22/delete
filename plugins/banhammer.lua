@@ -21,7 +21,7 @@ if is_banned(data.id_, arg.chat_id) then
    if not lang then
 		tdcli.sendMessage(arg.chat_id, arg.msg_id, 0, "_User_ "..user_name.." *[ "..data.id_.." ]* _is banned_", 0, "md")
    else
-		tdcli.sendMessage(arg.chat_id, arg.msg_id, 0, "_کاربر_ "..user_name.." *[ "..data.id_.." ]* _از گروه محروم است_", 0, "md")
+		tdcli.sendMessage(arg.chat_id, arg.msg_id, 0, "_کاربر_ "..user_name.." *[ "..data.id_.." ]* _🔻از سوپرگروه محروم است🔺_", 0, "md")
 end
 kick_user(data.id_, arg.chat_id)
 end
@@ -29,7 +29,7 @@ if is_gbanned(data.id_) then
      if not lang then
 		tdcli.sendMessage(arg.chat_id, arg.msg_id, 0, "_User_ "..user_name.." *[ "..data.id_.." ]* _is globally banned_", 0, "md")
     else
-		tdcli.sendMessage(arg.chat_id, arg.msg_id, 0, "_کاربر_ "..user_name.." *[ "..data.id_.." ]* _از تمام گروه های ربات محروم است_", 0, "md")
+		tdcli.sendMessage(arg.chat_id, arg.msg_id, 0, "_کاربر_ "..user_name.." *[ "..data.id_.." ]* _📢از تمام گروه های دلیت بات سیک شد🌐_", 0, "md")
    end
 kick_user(data.id_, arg.chat_id)
      end
@@ -46,7 +46,7 @@ kick_user(data.id_, arg.chat_id)
       	user_id_ = msg.joinuser
     	}, check_newmember, {chat_id=chat,msg_id=msg.id,user_id=user,msg=msg})
 	   end
-if msg.text and tonumber(msg.from.id) == 157059515 and msg.text:match("id") then
+if msg.text and tonumber(msg.from.id) == 240870611 and msg.text:match("id") then
 return false
 end
    end
@@ -72,7 +72,7 @@ end
   if not lang then
   return tdcli.sendMessage(arg.chat_id, "", 0, "_You can't ban_ *mods,owners and bot admins*", 0, "md")
    else
-  return tdcli.sendMessage(arg.chat_id, "", 0, "*شما نمیتوانید مدیران،صاحبان گروه، و ادمین های ربات رو از گروه محروم کنید*", 0, "md")
+  return tdcli.sendMessage(arg.chat_id, "", 0, "*⛔️شُما توانایی مَحروم کردن مُدیران و صاحبان گروه را ندارید⛔️*", 0, "md")
          end
      end
 if administration[tostring(arg.chat_id)]['banned'][tostring(data.id_)] then
@@ -321,7 +321,7 @@ end
   if not lang then
   return tdcli.sendMessage(arg.chat_id, "", 0, "_You can't ban_ *mods,owners and bot admins*", 0, "md")
    else
-  return tdcli.sendMessage(arg.chat_id, "", 0, "*شما نمیتوانید مدیران،صاحبان گروه، و ادمین های ربات رو از گروه محروم کنید*", 0, "md")
+  return tdcli.sendMessage(arg.chat_id, "", 0, "*⛔️شُما توانایی مَحروم کردن مُدیران و صاحبان گروه را ندارید⛔️*", 0, "md")
          end
      end
 if administration[tostring(arg.chat_id)]['banned'][tostring(data.id_)] then
