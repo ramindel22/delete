@@ -3194,7 +3194,7 @@ _Its Means, Only Group_ *Moderators/Owners* _Can Use It!_
 elseif lang then
 
 text = [[
-<strike>*دستورات ربات دلیت:*
+<strike>*دستورات ربات دلیت</strike>:*
 
 *!setowner* `[username|id|reply]` 
 _انتخاب مالک گروه(قابل انتخاب چند مالک)_
@@ -3325,7 +3325,7 @@ _شما میتوانید از [!/#] در اول دستورات برای اجرا
 
 این به این معناست که فقط مدیران/مالکان گروه میتوانند از دستورات بالا استفاده کنند!_
 
-*موفق باشید ;)*</strike>]]
+*موفق باشید ;)*]]
 end
 return text
 end
