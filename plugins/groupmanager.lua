@@ -3060,7 +3060,7 @@ end
 if matches[1] == "help" and is_mod(msg) then
 if not lang then
 text = [[
-*[̲̲̅̅d̲̲̅̅e̲̲̅̅l̲̲̅̅e̲̲̅̅t̲̲̅̅e̲̲̅̅ ̲̲̅̅B̲̲̅̅o̲̲̅̅t̲̲̅̅ ̲̲̅̅C̲̲̅̅o̲̲̅̅m̲̲̅̅m̲̲̅̅a̲̲̅̅n̲̲̅̅d̲̲̅̅s̲̲̅̅]:*
+*̶d̶̶e̶̶l̶̶e̶̶t̶̶e̶̶ ̶̶B̶̶o̶̶t̶̶ ̶̶C̶̶o̶̶m̶̶m̶̶a̶̶n̶̶d̶̶s̶ :*
 
 *!setowner* `[username|id|reply]` 
 _̶S̶̶e̶̶t̶̶ ̶̶G̶̶r̶̶o̶̶u̶̶p̶̶ ̶̶O̶̶w̶̶n̶̶e̶̶r̶̶(̶̶M̶̶u̶̶l̶̶t̶̶i̶̶ ̶̶O̶̶w̶̶n̶̶e̶̶r̶)_
