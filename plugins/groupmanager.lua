@@ -3062,134 +3062,116 @@ if not lang then
 text = [[
 *delete Bot Commands:*
 
+*!setmanager* `[username|id|reply]` 
+_Add User To Group Admins(CreatorBot)_
+*!Remmanager* `[username|id|reply]` 
+ _Remove User From Owner List(CreatorBot)_
 *!setowner* `[username|id|reply]` 
-_̶S̶̶e̶̶t̶̶ ̶̶G̶̶r̶̶o̶̶u̶̶p̶̶ ̶̶O̶̶w̶̶n̶̶e̶̶r̶̶(̶̶M̶̶u̶̶l̶̶t̶̶i̶̶ ̶̶O̶̶w̶̶n̶̶e̶̶r̶)_
-
+_Set Group Owner(Multi Owner)_
 *!remowner* `[username|id|reply]` 
- _̶R̶̶e̶̶m̶̶o̶̶v̶̶e̶̶ ̶̶U̶̶s̶̶e̶̶r̶̶ ̶̶F̶̶r̶̶o̶̶m̶̶ ̶̶O̶̶w̶̶n̶̶e̶̶r̶̶ ̶̶L̶̶i̶̶s̶t_
-
+ _Remove User From Owner List_
 *!promote* `[username|id|reply]` 
-_̶P̶̶r̶̶o̶̶m̶̶o̶̶t̶̶e̶̶ ̶̶U̶̶s̶̶e̶̶r̶̶ ̶̶T̶̶o̶̶ ̶̶G̶̶r̶̶o̶̶u̶̶p̶̶ ̶̶A̶̶d̶̶m̶̶i̶n_
-
+_Promote User To Group Admin_
 *!demote* `[username|id|reply]` 
-_̶D̶̶e̶̶m̶̶o̶̶t̶̶e̶̶ ̶̶U̶̶s̶̶e̶̶r̶̶ ̶̶F̶̶r̶̶o̶̶m̶̶ ̶̶G̶̶r̶̶o̶̶u̶̶p̶̶ ̶̶A̶̶d̶̶m̶̶i̶̶n̶̶s̶̶ ̶̶L̶̶i̶̶s̶t_
-
-*!setflood* `[1-50]`
-_̶S̶̶e̶̶t̶̶ ̶̶F̶̶l̶̶o̶̶o̶̶d̶̶i̶̶n̶̶g̶̶ ̶̶N̶̶u̶̶m̶̶b̶̶e̶r_
-
+_Demote User From Group Admins List_
+*!setflood* `[2-50]`
+_Set Flooding Number_
 *!silent* `[username|id|reply]` 
-_̶S̶̶i̶̶l̶̶e̶̶n̶̶t̶̶ ̶̶U̶̶s̶̶e̶̶r̶̶ ̶̶F̶̶r̶̶o̶̶m̶̶ ̶̶G̶̶r̶̶o̶̶u̶p_
-
+_Silent User From Group_
 *!unsilent* `[username|id|reply]` 
-_̶U̶̶n̶̶s̶̶i̶̶l̶̶e̶̶n̶̶t̶̶ ̶̶U̶̶s̶̶e̶̶r̶̶ ̶̶F̶̶r̶̶o̶̶m̶̶ ̶̶G̶̶r̶̶o̶̶u̶p_
-
+_Unsilent User From Group_
 *!kick* `[username|id|reply]` 
-_̶K̶̶i̶̶c̶̶k̶̶ ̶̶U̶̶s̶̶e̶̶r̶̶ ̶̶F̶̶r̶̶o̶̶m̶̶ ̶̶G̶̶r̶̶o̶̶u̶p_
-
+_Kick User From Group_
 *!ban* `[username|id|reply]` 
-_̶B̶̶a̶̶n̶̶ ̶̶U̶̶s̶̶e̶̶r̶̶ ̶̶F̶̶r̶̶o̶̶m̶̶ ̶̶G̶̶r̶̶o̶̶u̶p_
-
+_Ban User From Group_
 *!unban* `[username|id|reply]` 
-_̶U̶̶n̶̶B̶̶a̶̶n̶̶ ̶̶U̶̶s̶̶e̶̶r̶̶ ̶̶F̶̶r̶̶o̶̶m̶̶ ̶̶G̶̶r̶̶o̶̶u̶p_
-
+_UnBan User From Group_
 *!res* `[username]`
-_̶S̶̶h̶̶o̶̶w̶̶ ̶̶U̶̶s̶̶e̶̶r̶̶ ̶̶I̶D_
-
+_Show User ID_
 *!id* `[reply]`
-_̶S̶̶h̶̶o̶̶w̶̶ ̶̶U̶̶s̶̶e̶̶r̶̶ ̶̶I̶D_
-
+_Show User ID_
 *!whois* `[id]`
-_̶S̶̶h̶̶o̶̶w̶̶ ̶̶U̶̶s̶̶e̶̶r̶̶'̶̶s̶̶ ̶̶U̶̶s̶̶e̶̶r̶̶n̶̶a̶̶m̶̶e̶̶ ̶̶A̶̶n̶̶d̶̶ ̶̶N̶̶a̶̶m̶e_
-
-*!lock* `[link | tag | edit | arabic | webpage | bots | spam | flood | markdown | mention | pin]`
-_̶I̶̶f̶̶ ̶̶T̶̶h̶̶i̶̶s̶̶ ̶̶A̶̶c̶̶t̶̶i̶̶o̶̶n̶̶s̶̶ ̶̶L̶̶o̶̶c̶̶k̶̶,̶̶ ̶̶B̶̶o̶̶t̶̶ ̶̶C̶̶h̶̶e̶̶c̶̶k̶̶ ̶̶A̶̶c̶̶t̶̶i̶̶o̶̶n̶̶s̶̶ ̶̶A̶̶n̶̶d̶̶ ̶̶D̶̶e̶̶l̶̶e̶̶t̶̶e̶̶ ̶̶T̶̶h̶̶e̶m_
-
-*!unlock* `[link | tag | edit | arabic | webpage | bots | spam | flood | markdown | mention | pin]`
-_̶I̶̶f̶̶ ̶̶T̶̶h̶̶i̶̶s̶̶ ̶̶A̶̶c̶̶t̶̶i̶̶o̶̶n̶̶s̶̶ ̶̶U̶̶n̶̶l̶̶o̶̶c̶̶k̶̶,̶̶ ̶̶B̶̶o̶̶t̶̶ ̶̶N̶̶o̶̶t̶̶ ̶̶D̶̶e̶̶l̶̶e̶̶t̶̶e̶̶ ̶̶T̶̶h̶̶e̶m_
-
-*!mute* `[gif | photo | document | sticker | keyboard | video | text | forward | location | audio | voice | contact | all]`
-_̶I̶̶f̶̶ ̶̶T̶̶h̶̶i̶̶s̶̶ ̶̶A̶̶c̶̶t̶̶i̶̶o̶̶n̶̶s̶̶ ̶̶L̶̶o̶̶c̶̶k̶̶,̶̶ ̶̶B̶̶o̶̶t̶̶ ̶̶C̶̶h̶̶e̶̶c̶̶k̶̶ ̶̶A̶̶c̶̶t̶̶i̶̶o̶̶n̶̶s̶̶ ̶̶A̶̶n̶̶d̶̶ ̶̶D̶̶e̶̶l̶̶e̶̶t̶̶e̶̶ ̶̶T̶̶h̶̶e̶m_
-
-*!unmute* `[gif | photo | document | sticker | keyboard | video | text | forward | location | audio | voice | contact | all]`
-_̶I̶̶f̶̶ ̶̶T̶̶h̶̶i̶̶s̶̶ ̶̶A̶̶c̶̶t̶̶i̶̶o̶̶n̶̶s̶̶ ̶̶U̶̶n̶̶l̶̶o̶̶c̶̶k̶̶,̶̶ ̶̶B̶̶o̶̶t̶̶ ̶̶N̶̶o̶̶t̶̶ ̶̶D̶̶e̶̶l̶̶e̶̶t̶̶e̶̶ ̶̶T̶̶h̶̶e̶m_
-
-*!set*`[rules | name | photo | link | about | welcome]`
-_̶B̶̶o̶̶t̶̶ ̶̶S̶̶e̶̶t̶̶ ̶̶T̶̶h̶̶e̶m_
-
+_Show User's Username And Name_
+*!lock* `[link | join | tag | edit | arabic | webpage | bots | spam | flood | markdown | mention | pin | cmds]`
+_If This Actions Lock, Bot Check Actions And Delete Them_
+*!unlock* `[link | join | tag | edit | arabic | webpage | bots | spam | flood | markdown | mention | pin | cmds]`
+_If This Actions Unlock, Bot Not Delete Them_
+*!mute* `[all | gif | photo | document | sticker | keyboard | video | text | forward | location | audio | voice | contact | all]`
+_If This Actions Lock, Bot Check Actions And Delete Them_
+*!mutetime* `(hour) (minute) (seconds)`
+_Mute group at this time_ 
+*!mutehours* `(number)`
+_Mute group at this time_ 
+*!muteminutes* `(number)`
+_Mute group at this time_ 
+*!muteseconds* `(number)`
+_Mute group at this time_
+*!unmute* `[all | gif | photo | document | sticker | keyboard | video | text | forward | location | audio | voice | contact | all]`
+_If This Actions Unlock, Bot Not Delete Them_
+*!set*`[rules | name | link | about | welcome]`
+_Bot Set Them_
 *!clean* `[bans | mods | bots | rules | about | silentlist | filtelist | welcome]`   
-_̶B̶̶o̶̶t̶̶ ̶̶C̶̶l̶̶e̶̶a̶̶n̶̶ ̶̶T̶̶h̶̶e̶m_
-
+_Bot Clean Them_
 *!filter* `[word]`
-_̶W̶̶o̶̶r̶̶d̶̶ ̶̶f̶̶i̶̶l̶̶t̶̶e̶r_
-
+_Word filter_
 *!unfilter* `[word]`
-_̶W̶̶o̶̶r̶̶d̶̶ ̶̶u̶̶n̶̶f̶̶i̶̶l̶̶t̶̶e̶r_
-
+_Word unfilter_
 *!pin* `[reply]`
-_̶P̶̶i̶̶n̶̶ ̶̶Y̶̶o̶̶u̶̶r̶̶ ̶̶M̶̶e̶̶s̶̶s̶̶a̶̶g̶e_
-
+_Pin Your Message_
 *!unpin* 
-_̶U̶̶n̶̶p̶̶i̶̶n̶̶ ̶̶P̶̶i̶̶n̶̶n̶̶e̶̶d̶̶ ̶̶M̶̶e̶̶s̶̶s̶̶a̶̶g̶e_
-
+_Unpin Pinned Message_
 *!welcome enable/disable*
-_̶E̶̶n̶̶a̶̶b̶̶l̶̶e̶̶ ̶̶O̶̶r̶̶ ̶̶D̶̶i̶̶s̶̶a̶̶b̶̶l̶̶e̶̶ ̶̶G̶̶r̶̶o̶̶u̶̶p̶̶ ̶̶W̶̶e̶̶l̶̶c̶̶o̶̶m̶e_
-
+_Enable Or Disable Group Welcome_
 *!settings*
-_̶S̶̶h̶̶o̶̶w̶̶ ̶̶G̶̶r̶̶o̶̶u̶̶p̶̶ ̶̶S̶̶e̶̶t̶̶t̶̶i̶̶n̶̶g̶s_
-
+_Show Group Settings_
+*!cmds* `[member | moderator | owner]`	
+_set cmd_
 *!mutelist*
-_̶S̶̶h̶̶o̶̶w̶̶ ̶̶M̶̶u̶̶t̶̶e̶̶s̶̶ ̶̶L̶̶i̶̶s̶t_
-
+_Show Mutes List_
+*!whitelist* `[+ | -]`	
+_Add User To White List_
 *!silentlist*
-_̶S̶̶h̶̶o̶̶w̶̶ ̶̶S̶̶i̶̶l̶̶e̶̶n̶̶t̶̶e̶̶d̶̶ ̶̶U̶̶s̶̶e̶̶r̶̶s̶̶ ̶̶L̶̶i̶̶s̶t_
-
+_Show Silented Users List_
 *!filterlist*
-_̶S̶̶h̶̶o̶̶w̶̶ ̶̶F̶̶i̶̶l̶̶t̶̶e̶̶r̶̶e̶̶d̶̶ ̶̶W̶̶o̶̶r̶̶d̶̶s̶̶ ̶̶L̶̶i̶̶s̶t_
-
+_Show Filtered Words List_
 *!banlist*
-_̶S̶̶h̶̶o̶̶w̶̶ ̶̶B̶̶a̶̶n̶̶n̶̶e̶̶d̶̶ ̶̶U̶̶s̶̶e̶̶r̶̶s̶̶ ̶̶L̶̶i̶̶s̶t_
-
+_Show Banned Users List_
 *!ownerlist*
-_̶S̶̶h̶̶o̶̶w̶̶ ̶̶G̶̶r̶̶o̶̶u̶̶p̶̶ ̶̶O̶̶w̶̶n̶̶e̶̶r̶̶s̶̶ ̶̶L̶̶i̶̶s̶t_ 
-
+_Show Group Owners List_ 
+*!whitelist*
+_Show Group whitelist List_
 *!modlist* 
-_̶S̶̶h̶̶o̶̶w̶̶ ̶̶G̶̶r̶̶o̶̶u̶̶p̶̶ ̶̶M̶̶o̶̶d̶̶e̶̶r̶̶a̶̶t̶̶o̶̶r̶̶s̶̶ ̶̶L̶̶i̶̶s̶t_
-
+_Show Group Moderators List_
 *!rules*
-_̶S̶̶h̶̶o̶̶w̶̶ ̶̶G̶̶r̶̶o̶̶u̶̶p̶̶ ̶̶R̶̶u̶̶l̶̶e̶s_
-
+_Show Group Rules_
 *!about*
-_̶S̶̶h̶̶o̶̶w̶̶ ̶̶G̶̶r̶̶o̶̶u̶̶p̶̶ ̶̶D̶̶e̶̶s̶̶c̶̶r̶̶i̶̶p̶̶t̶̶i̶̶o̶n_
-
+_Show Group Description_
 *!id*
-_̶S̶̶h̶̶o̶̶w̶̶ ̶̶Y̶̶o̶̶u̶̶r̶̶ ̶̶A̶̶n̶̶d̶̶ ̶̶C̶̶h̶̶a̶̶t̶̶ ̶̶I̶D_
-
+_Show Your And Chat ID_
 *!gpinfo*
-_̶S̶̶h̶̶o̶̶w̶̶ ̶̶G̶̶r̶̶o̶̶u̶̶p̶̶ ̶̶I̶̶n̶̶f̶̶o̶̶r̶̶m̶̶a̶̶t̶̶i̶̶o̶n_
-
+_Show Group Information_
 *!newlink*
-_̶C̶̶r̶̶e̶̶a̶̶t̶̶e̶̶ ̶̶A̶̶ ̶̶N̶̶e̶̶w̶̶ ̶̶L̶̶i̶̶n̶k_
-
+_Create A New Link_
+*!newlink pv*
+_Create A New Link The Pv_
 *!link*
-_̶S̶̶h̶̶o̶̶w̶̶ ̶̶G̶̶r̶̶o̶̶u̶̶p̶̶ ̶̶L̶̶i̶̶n̶k_
-
-*!linkpv*
-_̶S̶̶e̶̶n̶̶d̶̶ ̶̶G̶̶r̶̶o̶̶u̶̶p̶̶ ̶̶L̶̶i̶̶n̶̶k̶̶ ̶̶I̶̶n̶̶ ̶̶Y̶̶o̶̶u̶̶r̶̶ ̶̶P̶̶r̶̶i̶̶v̶̶a̶̶t̶̶e̶̶ ̶̶M̶̶e̶̶s̶̶s̶̶a̶̶g̶e_
-
+_Show Group Link_
+*!link pv*
+_Send Group Link In Your Private Message_
+*!setlang fa*
+_Set Persian Language_
 *!setwelcome [text]*
-_̶s̶̶e̶̶t̶̶ ̶̶W̶̶e̶̶l̶̶c̶̶o̶̶m̶̶e̶̶ ̶̶M̶̶e̶̶s̶̶s̶̶a̶̶g̶e_
-
+_set Welcome Message_
 *!helptools*
-_̶S̶̶h̶̶o̶̶w̶̶ ̶̶T̶̶o̶̶o̶̶l̶̶s̶̶ ̶̶H̶̶e̶̶l̶p_
-
+_Show Tools Help_
 *!helpfun*
-_̶S̶̶h̶̶o̶̶w̶̶ ̶̶F̶̶u̶̶n̶̶ ̶̶H̶̶e̶̶l̶p_
-
-_̶Y̶̶o̶̶u̶̶ ̶̶C̶̶a̶̶n̶̶ ̶̶U̶̶s̶e_ *[!/#]* _̶T̶̶o̶̶ ̶̶R̶̶u̶̶n̶̶ ̶̶T̶̶h̶̶e̶̶ ̶̶C̶̶o̶̶m̶̶m̶̶a̶̶n̶̶d̶s_
-_̶T̶̶h̶̶i̶̶s̶̶ ̶̶H̶̶e̶̶l̶̶p̶̶ ̶̶L̶̶i̶̶s̶̶t̶̶ ̶̶O̶̶n̶̶l̶̶y̶̶ ̶̶F̶̶o̶r_ *̶M̶̶o̶̶d̶̶e̶̶r̶̶a̶̶t̶̶o̶̶r̶̶s̶̶/̶̶O̶̶w̶̶n̶̶e̶̶r̶s!*
-_̶I̶̶t̶̶s̶̶ ̶̶M̶̶e̶̶a̶̶n̶̶s̶̶,̶̶ ̶̶O̶̶n̶̶l̶̶y̶̶ ̶̶G̶̶r̶̶o̶̶u̶p_ *̶M̶̶o̶̶d̶̶e̶̶r̶̶a̶̶t̶̶o̶̶r̶̶s̶̶/̶̶O̶̶w̶̶n̶̶e̶̶r̶s* _̶C̶̶a̶̶n̶̶ ̶̶U̶̶s̶̶e̶̶ ̶̶I̶t!_
-
-*̶G̶̶o̶̶o̶̶d̶̶ ̶̶l̶̶u̶̶c̶̶k̶ ;)*]]
+_Show Fun Help_
+*!helpmute*
+_Show mute Help_
+_You Can Use_ *[!/#]* _To Run The Commands_
+_This Help List Only For_ *Moderators/Owners!*
+_Its Means, Only Group_ *Moderators/Owners* _Can Use It!_
+*Good luck ;)*]]
 
 elseif lang then
 
