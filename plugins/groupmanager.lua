@@ -3062,115 +3062,133 @@ if not lang then
 text = [[
 *delete Bot Commands:*
 
-*!setmanager* `[username|id|reply]` 
-_Add User To Group Admins(CreatorBot)_
-*!Remmanager* `[username|id|reply]` 
- _Remove User From Owner List(CreatorBot)_
 *!setowner* `[username|id|reply]` 
 _Set Group Owner(Multi Owner)_
+
 *!remowner* `[username|id|reply]` 
  _Remove User From Owner List_
+
 *!promote* `[username|id|reply]` 
 _Promote User To Group Admin_
+
 *!demote* `[username|id|reply]` 
 _Demote User From Group Admins List_
-*!setflood* `[2-50]`
+
+*!setflood* `[1-50]`
 _Set Flooding Number_
+
 *!silent* `[username|id|reply]` 
 _Silent User From Group_
+
 *!unsilent* `[username|id|reply]` 
 _Unsilent User From Group_
+
 *!kick* `[username|id|reply]` 
 _Kick User From Group_
+
 *!ban* `[username|id|reply]` 
 _Ban User From Group_
+
 *!unban* `[username|id|reply]` 
 _UnBan User From Group_
+
 *!res* `[username]`
 _Show User ID_
+
 *!id* `[reply]`
 _Show User ID_
+
 *!whois* `[id]`
 _Show User's Username And Name_
-*!lock* `[link | join | tag | edit | arabic | webpage | bots | spam | flood | markdown | mention | pin | cmds]`
+
+*!lock* `[link | tag | edit | arabic | webpage | bots | spam | flood | markdown | mention | pin]`
 _If This Actions Lock, Bot Check Actions And Delete Them_
-*!unlock* `[link | join | tag | edit | arabic | webpage | bots | spam | flood | markdown | mention | pin | cmds]`
+
+*!unlock* `[link | tag | edit | arabic | webpage | bots | spam | flood | markdown | mention | pin]`
 _If This Actions Unlock, Bot Not Delete Them_
-*!mute* `[all | gif | photo | document | sticker | keyboard | video | text | forward | location | audio | voice | contact | all]`
+
+*!mute* `[gif | photo | document | sticker | keyboard | video | text | forward | location | audio | voice | contact | all]`
 _If This Actions Lock, Bot Check Actions And Delete Them_
-*!mutetime* `(hour) (minute) (seconds)`
-_Mute group at this time_ 
-*!mutehours* `(number)`
-_Mute group at this time_ 
-*!muteminutes* `(number)`
-_Mute group at this time_ 
-*!muteseconds* `(number)`
-_Mute group at this time_
-*!unmute* `[all | gif | photo | document | sticker | keyboard | video | text | forward | location | audio | voice | contact | all]`
+
+*!unmute* `[gif | photo | document | sticker | keyboard | video | text | forward | location | audio | voice | contact | all]`
 _If This Actions Unlock, Bot Not Delete Them_
-*!set*`[rules | name | link | about | welcome]`
+
+*!set*`[rules | name | photo | link | about | welcome]`
 _Bot Set Them_
+
 *!clean* `[bans | mods | bots | rules | about | silentlist | filtelist | welcome]`   
 _Bot Clean Them_
+
 *!filter* `[word]`
 _Word filter_
+
 *!unfilter* `[word]`
 _Word unfilter_
+
 *!pin* `[reply]`
 _Pin Your Message_
+
 *!unpin* 
 _Unpin Pinned Message_
+
 *!welcome enable/disable*
 _Enable Or Disable Group Welcome_
+
 *!settings*
 _Show Group Settings_
-*!cmds* `[member | moderator | owner]`	
-_set cmd_
+
 *!mutelist*
 _Show Mutes List_
-*!whitelist* `[+ | -]`	
-_Add User To White List_
+
 *!silentlist*
 _Show Silented Users List_
+
 *!filterlist*
 _Show Filtered Words List_
+
 *!banlist*
 _Show Banned Users List_
+
 *!ownerlist*
 _Show Group Owners List_ 
-*!whitelist*
-_Show Group whitelist List_
+
 *!modlist* 
 _Show Group Moderators List_
+
 *!rules*
 _Show Group Rules_
+
 *!about*
 _Show Group Description_
+
 *!id*
 _Show Your And Chat ID_
+
 *!gpinfo*
 _Show Group Information_
+
 *!newlink*
 _Create A New Link_
-*!newlink pv*
-_Create A New Link The Pv_
+
 *!link*
 _Show Group Link_
-*!link pv*
+
+*!linkpv*
 _Send Group Link In Your Private Message_
-*!setlang fa*
-_Set Persian Language_
+
 *!setwelcome [text]*
 _set Welcome Message_
+
 *!helptools*
 _Show Tools Help_
+
 *!helpfun*
 _Show Fun Help_
-*!helpmute*
-_Show mute Help_
+
 _You Can Use_ *[!/#]* _To Run The Commands_
 _This Help List Only For_ *Moderators/Owners!*
 _Its Means, Only Group_ *Moderators/Owners* _Can Use It!_
+
 *Good luck ;)*]]
 
 elseif lang then
